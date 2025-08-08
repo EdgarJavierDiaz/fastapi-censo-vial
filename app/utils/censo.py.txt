@@ -1,0 +1,3 @@
+def limpiar_datos(datos):
+    # Función para limpiar datos del censo
+    return datos.strip()

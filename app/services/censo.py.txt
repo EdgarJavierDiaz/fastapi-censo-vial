@@ -1,0 +1,3 @@
+def procesar_censo(data):
+    # Lógica para procesar datos del censo
+    return {"procesado": True, "datos": data}

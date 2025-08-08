@@ -1,0 +1,5 @@
+import requests
+
+def obtener_datos_externos(url: str):
+    response = requests.get(url)
+    return response.json()
