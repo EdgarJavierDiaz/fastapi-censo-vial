@@ -1,3 +1,17 @@
 .env
 __pycache__/
 *.pyc
+venv/
+
+
+# VS Code
+.vscode/
+
+# SQLite
+*.db
+
+# Logs
+*.log
+
+# Docker
+__docker_cache__/

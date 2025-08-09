@@ -1,10 +1,8 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 class CensoCreate(BaseModel):
     descripcion: str
 
 class CensoOut(CensoCreate):
     id: int
-
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)

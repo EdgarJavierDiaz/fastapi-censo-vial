@@ -5,12 +5,17 @@ Aplicación web desarrollada con **FastAPI** para el registro y monitoreo de la 
 ---
 
 ## 📚 Tabla de Contenido
-- [Características principales](#-caracters utilizadas
-- [Instalación](#Endpoints principales](#-endpoints-principales)
+
+
+- Características principales
+- Tecnologías utilizadas
+- Instalación
+- Endpoints principales
 - Pruebas
-- [Contribuciones](#-contribuciones)
+- Contribuciones
 - Licencia
 - Contacto
+
 
 
 ## 🚀 Características principales

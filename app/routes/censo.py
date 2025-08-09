@@ -24,3 +24,8 @@ def crear_censo(censo: schemas.CensoCreate, db: Session = Depends(get_db)):
 def obtener_censos(db: Session = Depends(get_db)):
     return db.query(models.Censo).all()
 
+@router.get("/eventos")
+def obtener_eventos():
+    return {"mensaje": "Eventos cargados correctamente"}
+
+
